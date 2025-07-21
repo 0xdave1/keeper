@@ -1,8 +1,5 @@
 import React from "react";
 
-if (process.env.NODE_ENV !== "production") {
-  console.warn("Note component is being rendered");
-}
 
 function Note() {
   return <div className="note">
